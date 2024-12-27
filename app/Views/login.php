@@ -10,7 +10,13 @@
     <div class="container vh-100 d-flex justify-content-center align-items-center">
         <div class="card shadow p-4" style="width: 400px;">
             <h3 class="text-center mb-4">Login</h3>
-            <form action="process_login.php" method="post">
+            <?php if (session()->getFlashdata('error')): ?>
+        <p style="color: red;"><?= session()->getFlashdata('error') ?></p>
+    <?php endif; ?>
+            <form method="POST" action="Login/authenticate">
+        <?= csrf_field() ?>
+        
+        
                 <div class="mb-3">
                     <label for="username" class="form-label">Nom d'utilisateur</label>
                     <input type="text" class="form-control" id="username" name="username" required>
@@ -22,7 +28,7 @@
                 <button type="submit" class="btn btn-primary w-100">Connexion</button>
             </form>
             <div class="mt-3 text-center">
-                <p>Pas encore inscrit ? <a href="register.php">Créer un compte</a></p>
+                <p>Pas encore inscrit ? <a href="/register">Créer un compte</a></p>
             </div>
         </div>
     </div>

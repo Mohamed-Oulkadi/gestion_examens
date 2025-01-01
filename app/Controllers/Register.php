@@ -11,24 +11,45 @@ class Register extends BaseController
     public function index(): string
     {
         $roleModel = new RoleModel();
+<<<<<<< HEAD
         $roles = $roleModel->findAll(); 
+=======
+        $roles = $roleModel->findAll(); // Récupère tous les rôles de la table 'roles'
+        
+        // Charger la vue et transmettre les rôles
+>>>>>>> c7f799b571c829c8526e66d5296aa4b6a9ffe72e
         return view('register', ['roles' => $roles]);
     }
 
     public function processRegister()
 {
+<<<<<<< HEAD
+=======
+    // Charger les modèles nécessaires
+>>>>>>> c7f799b571c829c8526e66d5296aa4b6a9ffe72e
     $userModel = new UserModel();
     $compteModel = new CompteModel();
     $roleModel = new RoleModel();
 
+<<<<<<< HEAD
+=======
+    // Récupérer les données du formulaire
+>>>>>>> c7f799b571c829c8526e66d5296aa4b6a9ffe72e
     $nom = $this->request->getPost('nom');
     $prenom = $this->request->getPost('prenom');
     $email = $this->request->getPost('email');
     $username = $this->request->getPost('username');
+<<<<<<< HEAD
     $password = $this->request->getPost('password'); 
     $role_id = $this->request->getPost('role'); 
 
 
+=======
+    $password = $this->request->getPost('password'); // Mot de passe sans hachage
+    $role_id = $this->request->getPost('role'); // Récupérer le nom du rôle
+
+    // Vérifier si toutes les données sont présentes
+>>>>>>> c7f799b571c829c8526e66d5296aa4b6a9ffe72e
     if (empty($nom) || empty($prenom) || empty($email) || empty($username) || empty($password) || empty($role_id)) {
         return redirect()->back()->with('error', 'Tous les champs sont obligatoires.');
     }

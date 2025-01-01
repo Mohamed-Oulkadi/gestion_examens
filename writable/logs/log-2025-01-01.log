@@ -1,0 +1,1044 @@
+ERROR - 2025-01-01 00:15:46 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:15:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:16:19 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:16:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: POST, Route: Login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `comptes`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:16:25 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:16:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:26:08 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:26:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: POST, Route: Login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `comptes`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:26:50 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:26:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:30:05 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:30:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:30:12 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:30:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:30:38 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:30:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:30:40 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:30:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:30:42 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:30:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:34:27 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:34:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+INFO - 2025-01-01 00:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 00:35:18 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:35:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+INFO - 2025-01-01 00:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 00:35:28 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:35:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: POST, Route: Login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `comptes`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:36:14 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:36:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: POST, Route: Login/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `comptes`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-01 00:36:48 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:36:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+INFO - 2025-01-01 00:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 00:46:46 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gestion_examens', 3306, '', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp25\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->index()
+#7 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#13 {main}
+CRITICAL - 2025-01-01 00:46:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `roles`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Register.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp25\\htdocs\\gestion_examens\\public\\index.php')
+INFO - 2025-01-01 00:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 00:50:25 --> mysqli_sql_exception: Duplicate entry 'hamid' for key 'username' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 00:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 00:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 01:17:52 --> mysqli_sql_exception: Duplicate entry 'jwjdjwqjd@gmail.coom' for key 'email' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(49): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+ERROR - 2025-01-01 01:17:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`comptes`, CONSTRAINT `comptes_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 01:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 01:20:00 --> mysqli_sql_exception: Duplicate entry 'jwjdjwqjd@gmail.coom' for key 'email' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(49): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+ERROR - 2025-01-01 01:20:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`comptes`, CONSTRAINT `comptes_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 01:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 01:22:34 --> mysqli_sql_exception: Duplicate entry 'hamid' for key 'username' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 01:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 01:23:49 --> mysqli_sql_exception: Duplicate entry 'hamid' for key 'username' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 01:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-01 01:28:02 --> mysqli_sql_exception: Duplicate entry 'hamid' for key 'username' in C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp25\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp25\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp25\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp25\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp25\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp25\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp25\htdocs\gestion_examens\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Register->processRegister()
+#9 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp25\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp25\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp25\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp25\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp25\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp25\\htdo...')
+#15 {main}
+INFO - 2025-01-01 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-01 01:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

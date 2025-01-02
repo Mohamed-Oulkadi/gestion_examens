@@ -29,7 +29,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" style="color: #FFFFFF;"><i class="glyphicon glyphicon-user"></i> Profil</a></li>
-                <li><a href="#" style="color: #FFFFFF;"><i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a></li>
+                <li><a href="logout" style="color: #FFFFFF;"><i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a></li>
             </ul>
         </div>
     </div>

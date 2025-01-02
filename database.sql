@@ -23,6 +23,48 @@ CREATE TABLE IF NOT EXISTS comptes (
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE CASCADE
 );
 
+-- Create 'professors' table
+CREATE TABLE professors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- Create 'students' table
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- Create 'courses' table
+CREATE TABLE courses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    professor_id INT NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (professor_id) REFERENCES professors(id) ON DELETE CASCADE
+);
+
+-- Create 'grades' table
+CREATE TABLE grades (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    exam_date DATE NOT NULL,
+    grade DECIMAL(5,2),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
+);
+
 -- Insert roles into 'roles' table
 INSERT INTO roles (role_name) VALUES
     ('Admin'),
@@ -39,5 +81,4 @@ INSERT INTO users (nom, prenom, email) VALUES
 INSERT INTO comptes (user_id, username, password, role_id) VALUES
     (1, 'karim', 'password1', 1),
     (2, 'said', 'password2', 2),
-    (3, 'mohammed', 'password3', 3);   
-
+    (3, 'mohammed', 'password3', 3);

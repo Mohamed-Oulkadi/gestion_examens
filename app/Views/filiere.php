@@ -50,32 +50,26 @@
                         <br>
                         <div id="employee_table" class="table-responsive">
                         <table id="employee_data" class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 10%;">ID</th>
-                                        <th style="width: 15%;">Nom</th>
-                                        <th style="width: 15%;">Prénom</th>
-                                        <th style="width: 15%;">Nom Filière</th>
-                                        <th style="width: 15%;">Niveau</th>
-                                        <th style="width: 10%;">Code Massr</th>
-                                        <th style="width: 10%;">Image</th>
-                                        <th style="width: 10%;">Sexe</th>
-                                        <th class="text-center" style="width: 10%;">Modifier</th>
-                                        <th class="text-center" style="width: 10%;">Supprimer</th>
-                                    </tr>
-                                </thead>
+                        <thead>  
+                               
+                               <tr>  
+                                    <th style="width: 20%;">ID Filiere</th> 
+                                    <th style="width: 20%;">Nom Filiere </th>
+                                    <th style="width: 20%;">Niveau</th>                           
+                                   <th style="width: 10%;">Modifier</th>
+                                   
+                                 
+                                    <th class="text-center" style="width: 15%;">Supprimer</th>  
+                               </tr> 
+                               </thead>  
                                 <tbody>
                                     <tr>
                                         <td>1</td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td><img src="" alt="Image" style="width: 50px; height: 50px;"></td>
-                                        <td></td>
+                                       
                                         <td>
-                                            <a href="editetudiant.php">
+                                            <a href="editfiliere.php">
                                                 <center>
                                                     <button type="button" class="btn btn-info btn-xs" style="background-color: #afc8a4; color: #385e82">
                                                         <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
@@ -85,7 +79,7 @@
                                         </td>
                                         <td>
                                             <center>
-                                                <a href="supprimeretudiant.php">
+                                                <a href="supprimerefiliere.php" onclick="return confirm('Etes vous sure de vouloir supprimer le service')">
                                                     <button style="background-color: #afc8a4; color: #385e82" type="button" class="btn btn-info btn-xs">
                                                         <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                                     </button>
@@ -127,68 +121,23 @@
                     <form method="post"  class="form">
                         <div class="form-row">
                         
-                            <div class="form-group col-md-4">
-                                <label for="nom">Nom :</label>
-                                <input type="text" name="nom" class="form-control" placeholder="Nom" required>
+                            <div class="form-group ">
+                                <label for="nom">Nom de Filiere :</label>
+                                <input type="text" name="nom_filiere" class="form-control" placeholder="Nom de la filiere" required>
                             </div>
-                            <div class="form-group col-md-4">
-                                <label for="prenom">Prénom :</label>
-                                <input type="text" name="prenom" class="form-control" placeholder="Prénom" required>
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="filiere">Nom Filière :</label>
-                                <input type="text" name="filiere" class="form-control" placeholder="Filière" required>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-3">
-                                <label for="niveau">Niveau :</label>
+                            <div class="form-group ">
+                                <label for="niveau">Niveau d'etude :</label>
                                 <input type="text" name="niveau" class="form-control" placeholder="Niveau" required>
                             </div>
-                            <div class="form-group col-md-3">
-                                <label for="code_massr">Code Massr :</label>
-                                <input type="text" name="code_massr" class="form-control" placeholder="Code Massr" required>
-                            </div>
-                            <div class="form-group col-md-3">
-                                <label for="image">Image :</label>
-                                <input type="file" name="image" class="form-control" required>
-                            </div>
-                            <div class="form-group col-md-3">
-                                <label for="sexe">Sexe :</label>
-                                <select name="sexe" class="form-control">
-                                    <option value="Homme">Homme</option>
-                                    <option value="Femme">Femme</option>
-                                </select>
-                            </div>
+                           
                         </div>
 
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="email">Email :</label>
-                                <input type="email" name="email" class="form-control" placeholder="Email@gmail.com" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="ntel">N_téléphone :</label>
-                                <input class="form-control" type="text" name="ntel" placeholder="06 xxxx xxxx" required>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="pwd">Mot de passe :</label>
-                                <input type="password" name="pwd" class="form-control" placeholder="Mot de passe" minlength="3" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="pwd1">Confirmer le mot de passe :</label>
-                                <input type="password" name="pwd1" class="form-control" placeholder="Mot de passe" minlength="3" required>
-                            </div>
-                        </div>
+                        
 
                         <div class="form-row">
                             <div class="form-group col-md-12">
                                 <input type="submit" value="Enregistrer" class="btn btn-success" style="background-color: #afc8a4; color: #385e82">
-                                <button type="button" class="btn btn-default" onclick="window.location='etudiant.php'" style="background-color: #afc8a4; color: #385e82">Annuler</button>
+                                <button type="button" class="btn btn-default" onclick="window.location='filiere.php'" style="background-color: #afc8a4; color: #385e82">Annuler</button>
                             </div>
                         </div>
                         <hr class="new1">

@@ -173,25 +173,14 @@
     </div>
 
     <script>
-        $(document).ready(function() {
-            function getLanguage() {
-                return '//cdn.datatables.net/plug-ins/1.10.7/i18n/French.json';
-            }
-
+        $(document).ready(function () {
             $('#employee_data').DataTable({
                 language: {
-                    url: getLanguage()
+                    url: '//cdn.datatables.net/plug-ins/1.10.7/i18n/French.json'
                 },
-                paging: false,
+                paging: true,
                 searching: true
             });
-
-            $('#datetimepicker1, #datetimepicker2, #datetimepicker3').datetimepicker({
-                locale: 'fr',
-                format: 'DD/MM/YYYY'
-            });
-
-          
         });
     </script>
 </body>

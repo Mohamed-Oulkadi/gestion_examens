@@ -15,7 +15,7 @@
             <div class="modal-content">
                 <div class="modal-header" style="background-color:rgb(33, 100, 145); color: #385e82">
                     <h4 style="font-family: 'Varela Round', sans-serif; color:aliceblue;" class="modal-title text-center">
-                        Modifier les informations utilisateur
+                        Modifier les informations professeur
                     </h4>
                 </div>
 
@@ -33,24 +33,18 @@
                                 <input type="text" name="prenom" class="form-control" placeholder="Prénom" required value="" />
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="filiere">Nom Filière :</label>
-                                <input type="text" name="filiere" class="form-control" placeholder="Filière" required value="" />
+                                <label for="email">email :</label>
+                                <input type="text" name="filiere" class="form-control" placeholder="Email@gmail.com" required value="" />
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-3">
-                                <label for="niveau">Niveau :</label>
-                                <input type="text" name="niveau" class="form-control" placeholder="Niveau" required value="" />
+                                <label for="Ntel">Telephone :</label>
+                                <input type="text" name="Ntel" class="form-control" placeholder="06-xxx-xxx-xx" required value="" />
                             </div>
-                            <div class="form-group col-md-3">
-                                <label for="code_massr">Code Massr :</label>
-                                <input type="text" name="code_massr" class="form-control" placeholder="Code Massr" required value="" />
-                            </div>
-                            <div class="form-group col-md-3">
-                                <label for="image">Image :</label>
-                                <input type="file" name="image" class="form-control" />
-                            </div>
+                           
+                            
                             <div class="form-group col-md-3">
                                 <label for="sexe">Sexe :</label>
                                 <select name="sexe" class="form-control">

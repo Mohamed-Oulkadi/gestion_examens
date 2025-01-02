@@ -16,14 +16,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="dashboard" style="color: #FFFFFF;">Gestion des Examens</a>
+            <a class="navbar-brand" href="Dashbord.php" style="color: #FFFFFF;">Gestion des Examens</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="examens.php" style="color: #FFFFFF;">Examens</a></li>
-                <li><a href="notes.php" style="color: #FFFFFF;">Notes </a></li>
+                <li><a href="professeur.php" style="color: #FFFFFF;">Professeur</a></li>
+                <li><a href="filiere.php" style="color: #FFFFFF;">Filieres</a> </a></li>
                 <li><a href="etudiant.php" style="color: #FFFFFF;">Etudiants </a></li>
-                <li><a href="demandeRecorrection.php" style="color: #FFFFFF;">Demandes de recorrections</a></li>
                 <li><a href="utilisateur.php" style="color: #FFFFFF;">Utilisateurs</a></li>
                 
             </ul>

@@ -13,7 +13,7 @@ class Dashboard extends BaseController
         }
 
         // If logged in, show the dashboard
-        return view('dashboard');
+        return view('/dashboard');
     }
 }
 

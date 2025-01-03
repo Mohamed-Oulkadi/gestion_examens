@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); 
+ .navbar{
+     background: linear-gradient(to bottom right, #263314, #0d324d);
+    border-radius: 0;
+  }
+  body{
+font-family: 'Mukta', sans-serif;
+  }
+  
+  .thead{
+font-family: 'Mukta', sans-serif;
+  } 
+
+  .tr  {
+font-family: 'Mukta', sans-serif;
+  }
+
+
+  .panel-heading{
+
+ 
+  }
+
+  .panel-heading{
+       background-color: #afc8a4;
+     color: #385e82 ; 
+     height: 40px;
+
+  }
+  .stat-panel {
+    border: solid;
+    border-color: #98d9b6;
+    background-color: #F3FBF6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-panel span {
+    font-size: 40px;
+    color: #98d9b6;
+}
+
+.stat-panel a {
+    text-decoration: none;
+    color: #98d9b6;
+    font-size: large;
+}
+
+.stat-panel a:hover {
+    color: #76b49e;
+}
+b {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: rgb(70, 110, 196); }
+  100% { color: rgb(52, 72, 136); }
+}

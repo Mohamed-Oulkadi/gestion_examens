@@ -1,90 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Admin Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styleh.css">
+   
 </head>
 <body>
-    <!-- Include Navbar -->
-    <?php include('navbar.php'); ?>
-
-    <!-- Dashboard Content -->
-    <div class="container mt-5">
-        <h1 class="mb-4">Dashboard Admin</h1>
-
-        <div class="row">
-            <!-- Card: Total Professeurs -->
-            <div class="col-md-4">
-                <div class="card text-white bg-primary mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Professeurs</h5>
-                        <p class="card-text">Total : <strong>12</strong></p>
-                        <a href="/admin/professeurs" class="btn btn-light btn-sm">Voir plus</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card: Total Modules -->
-            <div class="col-md-4">
-                <div class="card text-white bg-success mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Modules</h5>
-                        <p class="card-text">Total : <strong>8</strong></p>
-                        <a href="/admin/modules" class="btn btn-light btn-sm">Voir plus</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card: Total Filières -->
-            <div class="col-md-4">
-                <div class="card text-white bg-info mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Filières</h5>
-                        <p class="card-text">Total : <strong>4</strong></p>
-                        <a href="/admin/filieres" class="btn btn-light btn-sm">Voir plus</a>
+<?php include('navbar.php'); ?>
+<br><br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-image: linear-gradient(rgb(57, 90, 95), #213321); border-color: #213321; height: 50px;"></div>
+                        <div class="panel-body">
+                            <p style="font-family: 'Verdana'; text-align: center;">
+                                Bienvenue sur votre espace <strong>Admin</strong> de l'application de gestion des examens !
+                                Ici, vous trouverez toutes les informations importantes pour une gestion efficace.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
 
-        <div class="row">
-            <!-- Card: Total Étudiants -->
-            <div class="col-md-4">
-                <div class="card text-white bg-secondary mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Étudiants</h5>
-                        <p class="card-text">Total : <strong>50</strong></p>
-                        <a href="/admin/etudiants" class="btn btn-light btn-sm">Voir plus</a>
-                    </div>
-                </div>
+<div class="container tableau-stat text-center">
+    <h1 class="text-center text-primary">Les différentes statistiques de l'année <b><?php echo date('Y'); ?></b></h1>
+    <br><br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stat-panel">
+                <span class="glyphicon glyphicon-education"></span>
+                <div>Nombre d'étudiants</div>
+                <a href="etudiants.php">100</a>
             </div>
-
-            <!-- Card: Total Examens -->
-            <div class="col-md-4">
-                <div class="card text-white bg-warning mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Examens</h5>
-                        <p class="card-text">Total : <strong>15</strong></p>
-                        <a href="/admin/examens" class="btn btn-light btn-sm">Voir plus</a>
-                    </div>
-                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-panel">
+                <span class="glyphicon glyphicon-user"></span>
+                <div>Nombre d'utilisateurs</div>
+                <a href="utilisateurs.php">50</a>
             </div>
-
-            <!-- Card: Total Résultats -->
-            <div class="col-md-4">
-                <div class="card text-white bg-danger mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Résultats</h5>
-                        <p class="card-text">Total : <strong>45</strong></p>
-                        <a href="/admin/resultats" class="btn btn-light btn-sm">Voir plus</a>
-                    </div>
-                </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-panel">
+                <span class="glyphicon glyphicon-refresh"></span>
+                <div>Demandes de recorrections</div>
+                <a href="recorrections.php">20</a>
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

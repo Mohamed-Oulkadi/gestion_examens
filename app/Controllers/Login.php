@@ -25,7 +25,7 @@ class Login extends BaseController
         // Check if the user exists and verify the password using password_verify
         if ($user && password_verify($password, $user["password"])) {
             session()->set('user', $user);  // Store user session
-            return redirect()->to('/dashboard');  // Redirect to dashboard on successful login
+            return redirect()->to('/Admin/dashboard');  // Redirect to dashboard on successful login
         } else {
             session()->setFlashdata('error', 'Invalid username or password.');
             return redirect()->to('/login');  // Redirect back to login page

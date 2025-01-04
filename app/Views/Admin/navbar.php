@@ -1,52 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Admin Navbar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
 </head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Admin Panel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<body style="font-family: 'Verdana', monospace; box-sizing: border-box; margin: 0; padding: 0;">
+<nav class="navbar navbar-inverse" style="background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0)); width: 100%;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/dashboard">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/professeurs">Professeurs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/modules">Modules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/filieres">Filières</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/etudiants">Étudiants</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/examens">Examens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/admin/resultats">Résultats</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-danger" href="/logout">Déconnexion</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="navbar-brand" href="Dashbord.php" style="color: #FFFFFF;">Gestion des Examens</a>
         </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="/admin/dashboard" style="color: #FFFFFF;">Dashboard</a></li>
+                <li><a href="/admin/professeurs" style="color: #FFFFFF;">Professeurs</a></li>
+                <li><a href="/admin/modules" style="color: #FFFFFF;">Modules</a></li>
+                <li><a href="/admin/filieres" style="color: #FFFFFF;">Filières</a></li>
+                <li><a href="/admin/etudiants" style="color: #FFFFFF;">Étudiants</a></li>
+                <li><a href="/admin/examens" style="color: #FFFFFF;">Examens</a></li>
+                <li><a href="/admin/resultats" style="color: #FFFFFF;">Résultats</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/logout" style="color: #FF4D4D;"><span class="glyphicon glyphicon-log-out"></span> Déconnexion</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

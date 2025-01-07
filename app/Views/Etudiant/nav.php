@@ -18,13 +18,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="dashbordEtudiant.php" style="color: #FFFFFF;">Gestion des Examens</a>
+            <a class="navbar-brand" href="dashboardEtudiant" style="color: #FFFFFF;">Gestion des Examens</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="profil.php" style="color: #FFFFFF;"><i class="glyphicon glyphicon-user"></i> Profil</a></li>
-                <li><a href="#" style="color: #FFFFFF;"><i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a></li>
+                <li><a href="profil" style="color: #FFFFFF;"><i class="glyphicon glyphicon-user"></i> Profil</a></li>
+                <li><a href="/logout" style="color: #FFFFFF;"><i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a></li>
             </ul>
         </div>
     </div>

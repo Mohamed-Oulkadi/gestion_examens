@@ -12,4 +12,7 @@ class CompteModel extends Model
     protected $allowedFields = ['user_id', 'username', 'password', 'role_id']; // Colonnes modifiables
 
     protected $useTimestamps = false; // Désactive les colonnes created_at/updated_at
+
+
+    
 }

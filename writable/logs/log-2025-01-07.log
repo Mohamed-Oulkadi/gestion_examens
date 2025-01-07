@@ -1,0 +1,788 @@
+CRITICAL - 2025-01-07 09:29:21 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:29:54 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:31:57 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:33:09 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:33:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:33:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:33:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:33:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:34:03 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:34:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:37:49 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:37:52 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:38:10 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:40:29 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:42:46 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:42:50 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:45:53 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:46:23 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:47:37 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:47:39 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:47:40 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:47:40 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 09:47:40 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 10:06:34 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:33:48 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:35:46 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:38:01 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:38:55 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:39:07 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:40:11 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:40:34 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:40:41 --> Error: Class "app\Models\UserModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:09 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:10 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:10 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:11 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:11 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:11 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:12 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:12 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:12 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:41:13 --> Error: Class "app\Models\EtudiantFiliereModel" not found
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Controllers\Etudiants.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:42:32 --> BadMethodCallException: Call to undefined method App\Models\EtudiantFiliereModel::getProfesseurs
+[Method: GET, Route: admin/etudiants]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Etudiants.php(15): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 11:50:24 --> ErrorException: Undefined array key "filiere_nom"
+[Method: GET, Route: admin/etudiants]
+in APPPATH\Views\Admin\etudiants.php on line 73.
+ 1 APPPATH\Views\Admin\etudiants.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filiere_nom"', 'C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\etudiants.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\etudiants.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/etudiants', [], true)
+ 5 APPPATH\Controllers\Etudiants.php(21): view('Admin/etudiants', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etudiants->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etudiants))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-07 13:02:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:02:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`filiere_module`, CONSTRAINT `filiere_module_ibfk_2` FOREIGN KEY (`module_id`) REFERENCES `module` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:08:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:08:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`filiere_module`, CONSTRAINT `filiere_module_ibfk_2` FOREIGN KEY (`module_id`) REFERENCES `module` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(72): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-07 13:08:34 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/modules]
+in APPPATH\Views\Admin\module.php on line 31.
+ 1 APPPATH\Views\Admin\module.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\module.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\module.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/module', [], true)
+ 5 APPPATH\Controllers\Modules.php(31): view('Admin/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-07 13:10:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:10:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`filiere_module`, CONSTRAINT `filiere_module_ibfk_2` FOREIGN KEY (`module_id`) REFERENCES `module` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(72): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-07 13:10:27 --> ErrorException: Undefined variable $errors
+[Method: GET, Route: admin/modules]
+in APPPATH\Views\Admin\module.php on line 32.
+ 1 APPPATH\Views\Admin\module.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\module.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\gestion_examens\\app\\Views\\Admin\\module.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/module', [], true)
+ 5 APPPATH\Controllers\Modules.php(31): view('Admin/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-07 13:19:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-07 13:19:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: admin/insert_module]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 13:19:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'introductopn au programmation python\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'introductopn au programmation python\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 13:19:07 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'introductopn au programmation python\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'introductopn au programmation python\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'introductopn au programmation python\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-07 13:21:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-07 13:21:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: admin/insert_module]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 13:21:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'intro au programmation py\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'intro au programmation py\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-07 13:21:02 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'intro au programmation py\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'intro au programmation py\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`name`, `description`) VALUES (\'python\', \'intro au programmation py\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Modules.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->insert()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-07 13:26:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:27:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:27:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`filiere_module`, CONSTRAINT `filiere_module_ibfk_2` FOREIGN KEY (`module_id`) REFERENCES `module` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(74): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-01-07 13:30:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_examens`.`module`, CONSTRAINT `module_ibfk_1` FOREIGN KEY (`professeur_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_examens\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->insert()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}

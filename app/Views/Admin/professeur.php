@@ -25,7 +25,7 @@
 
     <div class="container mt-5">
         <!-- Section d'en-tête -->
-        <h1 class="mb-4">Assigner un Module à un Professeur</h1>
+        <!-- <h1 class="mb-4">Assigner un Module à un Professeur</h1>
         <div align="right">
             <button 
                 type="button" 
@@ -35,32 +35,31 @@
                 data-target="#add_data_Modal">
                 <span class="glyphicon glyphicon-plus"></span> &nbsp;Assigner
             </button>
-        </div>
+        </div> -->
 
         <!-- Table des assignations -->
-        <h2 class="mt-4">Liste des Assignations</h2>
+        <h2 class="mt-4">Liste des Professeurs :</h2>
         <div class="panel-body">
             <div class="table-responsive">
                 <table id="employee_table" class="table table-striped">
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Professeur</th>
-                            <th>Module</th>
-                            <th>Actions</th>
+                            <th>Nom et Prenom</th>
+                            <th>Email</th>
+                            <th>Username</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Exemples de données -->
-                        <tr>
-                            <td>1</td>
-                            <td>Said Sfyani</td>
-                            <td>Programmation</td>
-                            <td>
-                                <button class="btn btn-danger btn-sm">Supprimer</button>
-                            </td>
-                        </tr>
-                        <!-- Les autres lignes seront ajoutées dynamiquement -->
+                    <?php foreach ($professeurs as $index => $professeur): ?>
+                    <tr>
+                        <td><?=  esc($professeur['id']); ?></td>
+                        <td><?= esc($professeur['nom']) . " " . esc($professeur['prenom']); ?></td>
+                        <td><?= esc($professeur['email']); ?></td>
+                        <td><?= esc($professeur['username']); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+                  
                     </tbody>
                 </table>
             </div>
@@ -68,7 +67,7 @@
     </div>
 
     <!-- Modal pour l'ajout d'une assignation -->
-    <div id="add_data_Modal" class="modal fade" data-backdrop="static" data-keyboard="false">
+    <!-- <div id="add_data_Modal" class="modal fade" data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -80,8 +79,8 @@
                             <label for="professor" class="form-label">Professeur</label>
                             <select class="form-control" id="professor" name="professor" required>
                                 <option value="" disabled selected>Choisir un professeur</option>
-                                <!-- Options dynamiques -->
-                                <option value="1">Said Sfyani</option>
+                                <-- Options dynamiques -->
+                                <!-- <option value="1">Said Sfyani</option>
                                 <option value="2">Fatima Amrani</option>
                             </select>
                         </div>
@@ -89,19 +88,20 @@
                             <label for="module" class="form-label">Module</label>
                             <select class="form-control" id="module" name="module" required>
                                 <option value="" disabled selected>Choisir un module</option>
-                                <!-- Options dynamiques -->
-                                <option value="1">Programmation</option>
+                                <-- Options dynamiques -->
+                                <!-- <option value="1">Programmation</option>
                                 <option value="2">Base de Données</option>
                             </select>
                         </div>
                         <div class="text-right mt-3">
                             <button type="submit" class="btn btn-primary">Assigner</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
+    </div>   -->
 
     <script>
         $(document).ready(function () {

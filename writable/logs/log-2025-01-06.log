@@ -1,0 +1,1616 @@
+CRITICAL - 2025-01-06 12:33:31 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('/', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:33:35 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('/', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:33:47 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('/dashboard', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:33:51 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('/dashboard', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:34:10 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('dashboard', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:34:17 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('dashboard', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:34:22 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\gestion_examens\app\Config\Routes.php on line 18
+[Method: GET, Route: login]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('dashboard', 'dashboard', 'Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(800): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(19): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\gestion_examens\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:39:12 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+[Method: GET, Route: Admin/dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('Admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:39:24 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+[Method: GET, Route: Admin/dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('Admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:41:23 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+[Method: GET, Route: Admin/dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('Admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:41:26 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Dashboard::index"
+[Method: GET, Route: Admin/dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('Admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 12:49:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/resultas.php"
+[Method: GET, Route: admin/resultats]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/resultas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/resultas', [], true)
+ 3 APPPATH\Controllers\Resultas.php(16): view('Admin/resultas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Resultas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resultas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 15:52:58 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: admin/professeurs]
+in APPPATH\Views\Admin\professeur.php on line 60.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/professeur', [], true)
+ 4 APPPATH\Controllers\Professeurs.php(21): view('Admin/professeur', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 15:56:17 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: admin/professeurs]
+in APPPATH\Views\Admin\professeur.php on line 60.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/professeur', [], true)
+ 4 APPPATH\Controllers\Professeurs.php(21): view('Admin/professeur', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:11:20 --> mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#6 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-06 16:11:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:21 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:11:35 --> mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#6 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-06 16:11:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:35 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:11:52 --> mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#6 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-06 16:11:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:11:52 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `professeur`.`nom` AS `professeur_nom`, `professeur`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `professeur` ON `professeur`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 APPPATH\Models\ProfesseurModuleModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:17:20 --> mysqli_sql_exception: Unknown column 'users.nom' in 'field list' in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 16:17:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.nom' in 'field list'
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:17:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.nom' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:17:20 --> [Caused by] mysqli_sql_exception: Unknown column 'users.nom' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:18:59 --> mysqli_sql_exception: Unknown column 'users.nom' in 'field list' in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 16:18:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.nom' in 'field list'
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:18:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.nom' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:18:59 --> [Caused by] mysqli_sql_exception: Unknown column 'users.nom' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `comptes` ON `comptes`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(17): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 16:33:18 --> mysqli_sql_exception: Table 'gestion_examens.compte' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-06 16:33:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.compte' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Professeurs.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:33:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.compte' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Professeurs.php(20): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:33:18 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.compte' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `compte` ON `compte`.`id` = `professeur_module`.`professeur_id`
+JOIN `users` ON `users`.`id` = `compte`.`id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Professeurs.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:41:13 --> Error: Cannot use [] for reading
+[Method: GET, Route: admin/professeurs]
+in APPPATH\Controllers\Professeurs.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 16:41:16 --> Error: Cannot use [] for reading
+[Method: GET, Route: admin/professeurs]
+in APPPATH\Controllers\Professeurs.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:07:58 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:07:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:07:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:07:59 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:08:02 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:08:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:08:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:08:02 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:08:54 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:08:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:08:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:08:54 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:09:37 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:09:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:37 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:09:41 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:09:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:41 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:09:41 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `profess...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `profess...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `profess...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `profess...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:09:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:09:41 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `professeur_module`.`id`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`, `module`.`name` AS `module_nom`
+FROM `professeur_module`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`
+JOIN `module` ON `module`.`id` = `professeur_module`.`module_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProfesseurModuleModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\ProfesseurModuleModel->getProfesseurModules()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:37:18 --> mysqli_sql_exception: Not unique table/alias: 'comptes' in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_examens\app\Models\CompteModel.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_examens\app\Controllers\Professeurs.php(19): App\Models\CompteModel->getProfesseur()
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+#9 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+#10 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-06 22:37:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'comptes'
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = :roles.role_name:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CompteModel.php(24): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Professeurs.php(19): App\Models\CompteModel->getProfesseur()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:37:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'comptes'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = \'Professeur\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = \'Professeur\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = :roles.role_name:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\CompteModel.php(24): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Professeurs.php(19): App\Models\CompteModel->getProfesseur()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:37:18 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'comptes'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = \'Professeur\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = \'Professeur\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = \'Professeur\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `id`, `users`.`nom` as `nom`, `users`.`prenom` as `prenom`, `users`.`email` as `email`, `comptes`.`username` as `username`
+FROM `comptes`
+JOIN `comptes` ON `comptes`.`user_id` = `users`.`id`
+JOIN `roles` ON `roles`.`id` = `comptes`.`role_id`
+WHERE `roles`.`role_name` = :roles.role_name:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CompteModel.php(24): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Professeurs.php(19): App\Models\CompteModel->getProfesseur()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:39:03 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getProfesseurs
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Professeurs.php(17): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:39:05 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getProfesseurs
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Professeurs.php(17): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:39:05 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getProfesseurs
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Professeurs.php(17): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:39:06 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getProfesseurs
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Professeurs.php(17): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:39:07 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getProfesseurs
+[Method: GET, Route: admin/professeurs]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Professeurs.php(17): CodeIgniter\Model->__call('getProfesseurs', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Professeurs->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Professeurs))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:49:01 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `module`...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\app\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+#6 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->index()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-06 22:49:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/modules]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 2 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:49:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 4 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:49:01 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 5 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+ERROR - 2025-01-06 22:49:41 --> mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist in C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\gestion_examens\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `module`...', 0)
+#1 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`...')
+#2 C:\xampp\htdocs\gestion_examens\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`...')
+#3 C:\xampp\htdocs\gestion_examens\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`...', Array, false)
+#4 C:\xampp\htdocs\gestion_examens\app\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_examens\app\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+#6 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(933): App\Controllers\Modules->index()
+#7 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+#8 C:\xampp\htdocs\gestion_examens\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gestion_examens\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gestion_examens\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gestion_examens\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\gestion_examens\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-06 22:49:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+[Method: GET, Route: admin/modules]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 2 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:49:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 4 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')
+CRITICAL - 2025-01-06 22:49:41 --> [Caused by] mysqli_sql_exception: Table 'gestion_examens.professeur_module' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `module`.`id` AS `module_id`, `module`.`name` AS `module_name`, `module`.`description`, `filiere`.`name` AS `filiere_name`, `users`.`nom` AS `professeur_nom`, `users`.`prenom` AS `professeur_prenom`
+FROM `module`
+JOIN `filiere_module` ON `filiere_module`.`module_id` = `module`.`id`
+JOIN `filiere` ON `filiere`.`id` = `filiere_module`.`filiere_id`
+JOIN `professeur_module` ON `professeur_module`.`module_id` = `module`.`id`
+JOIN `users` ON `users`.`id` = `professeur_module`.`professeur_id`', [], false)
+ 5 APPPATH\Models\ModuleModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Modules.php(16): App\Models\ModuleModel->getModules()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Modules->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modules))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\gestion_examens\\public\\index.php')

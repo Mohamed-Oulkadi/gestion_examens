@@ -4,55 +4,111 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modifier filiere</title>
+    <title>Modifier Filière</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .modal-content {
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px; 
+        }
+
+        .modal-header {
+            background-color: #216491;
+            color: #fff;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 15px 20px; 
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #385e82;
+        }
+
+        .form-control {
+            border-radius: 8px;
+            padding: 10px; 
+        }
+
+        .btn-success {
+            background-color: #529137;
+            border: none;
+            transition: background-color 0.3s ease;
+            padding: 10px 20px; 
+        }
+
+        .btn-success:hover {
+            background-color: #3e7a2c;
+        }
+
+        .btn-default {
+            background-color: #ddd;
+            color: #333;
+            border: none;
+            transition: background-color 0.3s ease;
+            padding: 10px 20px;
+        }
+
+        .btn-default:hover {
+            background-color: #bbb;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <?php include("navbar.php"); ?>
 
-    <div class="container-fluid">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header" style="background-color:rgb(33, 100, 145); color: #385e82">
-                    <h4 style="font-family: 'Varela Round', sans-serif; color:aliceblue;" class="modal-title text-center">
-                        Modifier les informations de la filiere
-                    </h4>
-                </div>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="modal-content p-4">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center w-100">
+                            Modifier les informations de la filière
+                        </h4>
+                    </div>
 
-                <div class="modal-body">
-                    <form method="post" action="updatefiliere.php" class="form">
-                        <h3 style="color:#385e82; font-family: 'Staatliches', cursive;" class="titre">INFORMATIONS</h3>
+                    <div class="modal-body">
+                        <form method="post" action="updatefiliere.php" class="form">
+                            <h5 class="text-center mb-4" style="color:#385e82; font-family: 'Staatliches', cursive;">
+                                Informations
+                            </h5>
 
-                        <div class="form-row">
+                            
                             <div class="form-group">
-                                <label for="nom">Nom de la filiere:</label>
-                                <input type="text" name="nom_filiere" class="form-control" placeholder="Nom de la filiere" required value="" />
+                                <label for="nom" class="form-label">Nom de la filière</label>
+                                <input type="text" name="nom_filiere" id="nom" class="form-control" placeholder="Entrez le nom de la filière" required>
                             </div>
-                            </div>
-                            <div class="form-row">
+
+                            
                             <div class="form-group">
-                                <label for="niveau">Description de la filiere :</label>
-                                <input type="text" name="description" class="form-control" placeholder="Description" required value="" />
+                                <label for="description" class="form-label">Description de la filière</label>
+                                <textarea name="description" id="description" class="form-control" rows="4" placeholder="Entrez une description" required></textarea>
                             </div>
-                          
 
-                        
-
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <input type="submit" value="Enregistrer" class="btn btn-success" style="background-color:rgb(82, 145, 55); color:rgb(227, 232, 236)" />
-                                <button type="button" class="btn btn-default" onclick="window.location='filiere.php'" style="background-color:rgb(82, 145, 55); color:rgb(227, 232, 236)">Annuler</button>
+                            
+                            <div class="d-flex justify-content-between mt-4">
+                                <button type="submit" class="btn btn-success">Enregistrer</button>
+                                <button type="button" class="btn btn-default" onclick="window.location='filiere.php'">Annuler</button>
                             </div>
-                        </div>
-
-                        <hr class="new1">
-                        <br>
-                        `
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

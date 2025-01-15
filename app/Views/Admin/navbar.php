@@ -51,6 +51,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="/admin/etudiants" class="nav-link text-white <?php echo ($current_page == 'students.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Professor Assignment">
+                        <i class="bi bi-person-workspace me-lg-2 icon-size"></i>
+                        <span class="menu-text d-none d-lg-inline">Students</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="/admin/examens" class="nav-link text-white <?php echo ($current_page == 'exams.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Exams">
                         <i class="bi bi-file-text me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Exams</span>

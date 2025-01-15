@@ -50,6 +50,51 @@ class Filieres extends BaseController
             return redirect()->back()->with('error', implode('<br>', $errors));
         }
     }
+    public function update($id)
+{
+    if (!session()->has('user') || session()->get("role") != 'Admin') {
+        return $this->response->setJSON(['success' => false, 'message' => 'Unauthorized access']);
+    }
+
+    $filiereModel = new FiliereModel();
+    
+    // Récupérer les données du formulaire
+    $nomFiliere = $this->request->getPost('name');
+    $description = $this->request->getPost('description');
+    
+    // Vérifier les champs obligatoires
+    if (empty($nomFiliere) || empty($description)) {
+        return $this->response->setJSON(['success' => false, 'message' => 'Tous les champs sont obligatoires']);
+    }
+    
+    // Préparer les données pour la mise à jour
+    $data = [
+        'name' => $nomFiliere,
+        'description' => $description,
+    ];
+    
+    // Mettre à jour dans la base de données
+    if ($filiereModel->update($id, $data)) {
+        return $this->response->setJSON(['success' => true, 'message' => 'Filière mise à jour avec succès']);
+    } else {
+        return $this->response->setJSON(['success' => false, 'message' => 'Erreur lors de la mise à jour']);
+    }
+}
+
+public function delete($id)
+{
+    if (!session()->has('user') || session()->get("role") != 'Admin') {
+        return $this->response->setJSON(['success' => false, 'message' => 'Unauthorized access']);
+    }
+
+    $filiereModel = new FiliereModel();
+    
+    if ($filiereModel->delete($id)) {
+        return $this->response->setJSON(['success' => true, 'message' => 'Filière supprimée avec succès']);
+    } else {
+        return $this->response->setJSON(['success' => false, 'message' => 'Erreur lors de la suppression']);
+    }
+}
 
 }
 

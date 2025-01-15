@@ -10,7 +10,8 @@ $routes->get('login', 'Login::index');
 $routes->post('Login/authenticate', 'Login::authenticate');
 $routes->get('register', 'Register::index');
 $routes->post('Register/processRegister', 'Register::processRegister');
-//$routes->get('dashboard', 'Dashboard::index');
+$routes->post('filieres/update/(:num)', 'Filieres::update/$1');
+$routes->post('filieres/delete/(:num)', 'Filieres::delete/$1');//$routes->get('dashboard', 'Dashboard::index');
 $routes->get('logout', 'Logout::index');
 
 

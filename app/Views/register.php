@@ -50,13 +50,31 @@
                         <h4 class="text-white text-center mb-0">Create Account</h4>
                     </div>
                     <div class="card-body p-4">
-                        <form id="registrationForm" class="needs-validation" novalidate>
+                        <form id="registrationForm" class="needs-validation" action="Register/processRegister" method="post">
+                        <div class="mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light border-0">
+                                        <i class="bi bi-person"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="nom" placeholder="nom" name="nom" required>
+                                </div>
+                                <div class="invalid-feedback">Please choose a nom.</div>
+                            </div>
+                        <div class="mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light border-0">
+                                        <i class="bi bi-person"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="prenom" placeholder="prenom" name="prenom" required>
+                                </div>
+                                <div class="invalid-feedback">Please choose a prenom.</div>
+                            </div>
                             <div class="mb-3">
                                 <div class="input-group">
                                     <span class="input-group-text bg-light border-0">
                                         <i class="bi bi-person"></i>
                                     </span>
-                                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                                    <input type="text" class="form-control" id="username" placeholder="Username" name="username" required>
                                 </div>
                                 <div class="invalid-feedback">Please choose a username.</div>
                             </div>
@@ -65,7 +83,7 @@
                                     <span class="input-group-text bg-light border-0">
                                         <i class="bi bi-envelope"></i>
                                     </span>
-                                    <input type="email" class="form-control" id="email" placeholder="Email address" required>
+                                    <input type="email" class="form-control" id="email" placeholder="Email address" name="email" required>
                                 </div>
                                 <div class="invalid-feedback">Please enter a valid email.</div>
                             </div>
@@ -74,19 +92,11 @@
                                     <span class="input-group-text bg-light border-0">
                                         <i class="bi bi-lock"></i>
                                     </span>
-                                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                                    <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
                                 </div>
                                 <div class="invalid-feedback">Please enter a password.</div>
                             </div>
-                            <div class="mb-4">
-                                <div class="input-group">
-                                    <span class="input-group-text bg-light border-0">
-                                        <i class="bi bi-shield-lock"></i>
-                                    </span>
-                                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
-                                </div>
-                                <div class="invalid-feedback">Passwords do not match.</div>
-                            </div>
+                        
                             <div class="mb-4">
                                 <div class="input-group">
                                     <span class="input-group-text bg-light border-0">
@@ -94,8 +104,9 @@
                                     </span>
                                     <select class="form-select" id="role" required>
                                         <option value="">Select Role</option>
-                                        <option value="student">Student</option>
-                                        <option value="teacher">Teacher</option>
+                                        <?php foreach ($roles as $role): ?>
+                <option value="<?= esc($role['id']); ?>"><?= esc($role['role_name']); ?></option>
+            <?php endforeach; ?>
                                     </select>
                                 </div>
                                 <div class="invalid-feedback">Please select a role.</div>
@@ -105,7 +116,7 @@
                             </button>
                             <div class="text-center">
                                 <span class="text-muted">Already have an account?</span>
-                                <a href="login.html" class="text-primary text-decoration-none">Login</a>
+                                <a href="login" class="text-primary text-decoration-none">Login</a>
                             </div>
                         </form>
                     </div>

@@ -32,19 +32,29 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Informatique</td>
-                                <td>Computer Science and Programming</td>
-                                <td>
-                                    <button class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#editFiliereModal">
+                        <?php if (!empty($filieres)): ?>
+                                <?php foreach ($filieres as $index => $filiere): ?>
+                                    <tr>
+                                        <td><?= $index + 1; ?></td>
+                                        <td><?= esc($filiere['name']); ?></td>
+                                        <td><?= esc($filiere['description']); ?></td>
+
+                                        <td>
+                                        <button class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#editFiliereModal">
                                         <i class="bi bi-pencil"></i>
                                     </button>
                                     <button class="btn btn-sm btn-danger">
                                         <i class="bi bi-trash"></i>
                                     </button>
-                                </td>
-                            </tr>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <tr>
+                                    <td colspan="4" class="text-center">Aucune filière trouvée</td>
+                                </tr>
+                            <?php endif; ?>
+                           
                         </tbody>
                     </table>
                 </div>
@@ -61,14 +71,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="addFiliereForm">
+                    <form id="addFiliereForm" method="post" action="ajouter_filiere">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" required>
+                            <input type="text" name="nom_filiere" class="form-control" id="name" required>
                         </div>
                         <div class="mb-3">
                             <label for="description" class="form-label">Description</label>
-                            <textarea class="form-control" id="description" rows="3" required></textarea>
+                            <textarea class="form-control" name="description" id="description" rows="3" required></textarea>
                         </div>
                     </form>
                 </div>

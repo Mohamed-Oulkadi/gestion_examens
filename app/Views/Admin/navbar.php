@@ -27,37 +27,37 @@
             <!-- Main Navigation -->
             <ul class="navbar-nav flex-column w-100 mb-auto">
                 <li class="nav-item">
-                    <a href="dashboard.php" class="nav-link text-white <?php echo ($current_page == 'dashboard.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                    <a href="/admin/dashboard" class="nav-link text-white <?php echo ($current_page == 'dashboard.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
                         <i class="bi bi-speedometer2 me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Dashboard</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="filieres.php" class="nav-link text-white <?php echo ($current_page == 'filieres.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Filières">
+                    <a href="/admin/filieres" class="nav-link text-white <?php echo ($current_page == 'filieres.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Filières">
                         <i class="bi bi-diagram-3 me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Filières</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="modules.php" class="nav-link text-white <?php echo ($current_page == 'modules.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Modules">
+                    <a href="/admin/modules" class="nav-link text-white <?php echo ($current_page == 'modules.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Modules">
                         <i class="bi bi-book me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Modules</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="professeurs.php" class="nav-link text-white <?php echo ($current_page == 'professeurs.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Professor Assignment">
+                    <a href="/admin/professeurs" class="nav-link text-white <?php echo ($current_page == 'professeurs.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Professor Assignment">
                         <i class="bi bi-person-workspace me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Professor Assignment</span>
+                        <span class="menu-text d-none d-lg-inline">Professors</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="exams.php" class="nav-link text-white <?php echo ($current_page == 'exams.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Exams">
+                    <a href="/admin/examens" class="nav-link text-white <?php echo ($current_page == 'exams.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Exams">
                         <i class="bi bi-file-text me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Exams</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="results.php" class="nav-link text-white <?php echo ($current_page == 'results.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Results">
+                    <a href="/admin/resultats" class="nav-link text-white <?php echo ($current_page == 'results.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Results">
                         <i class="bi bi-graph-up me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Results</span>
                     </a>
@@ -72,13 +72,13 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark shadow" aria-labelledby="userDropdown">
                     <li>
-                        <a class="dropdown-item d-flex align-items-center" href="profile.php">
+                        <a class="dropdown-item d-flex align-items-center" href="">
                             <i class="bi bi-person me-2"></i>Profile
                         </a>
                     </li>
                     <li><hr class="dropdown-divider"></li>
                     <li>
-                        <a class="dropdown-item d-flex align-items-center" href="../login.php">
+                        <a class="dropdown-item d-flex align-items-center" href="/logout">
                             <i class="bi bi-box-arrow-right me-2"></i>Sign out
                         </a>
                     </li>

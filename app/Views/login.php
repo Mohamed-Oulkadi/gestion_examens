@@ -50,13 +50,14 @@
                         <h4 class="text-white text-center mb-0">Welcome Back!</h4>
                     </div>
                     <div class="card-body p-4">
-                        <form id="loginForm" class="needs-validation" novalidate>
+                        <form id="loginForm" class="needs-validation" action="/Login/authenticate" method="post">
+                        <?= csrf_field() ?>
                             <div class="mb-4">
                                 <div class="input-group">
                                     <span class="input-group-text bg-light border-0">
                                         <i class="bi bi-person"></i>
                                     </span>
-                                    <input type="text" class="form-control" placeholder="Username or Email" required>
+                                    <input type="text" class="form-control" placeholder="Username or Email" name="username" required>
                                 </div>
                             </div>
                             <div class="mb-4">
@@ -64,7 +65,7 @@
                                     <span class="input-group-text bg-light border-0">
                                         <i class="bi bi-lock"></i>
                                     </span>
-                                    <input type="password" class="form-control" placeholder="Password" required>
+                                    <input type="password" class="form-control" placeholder="Password" name="password" required>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between mb-4">
@@ -77,11 +78,12 @@
                             <button type="submit" class="btn btn-primary btn-login w-100 mb-3">
                                 Login
                             </button>
-                            <div class="text-center">
-                                <span class="text-muted">Don't have an account?</span>
-                                <a href="register.html" class="text-primary text-decoration-none">Register</a>
-                            </div>
+                           
                         </form>
+                        <div class="text-center">
+                                <span class="text-muted">Don't have an account?</span>
+                                <a href="/register" class="text-primary text-decoration-none">Register</a>
+                            </div>
                     </div>
                 </div>
             </div>

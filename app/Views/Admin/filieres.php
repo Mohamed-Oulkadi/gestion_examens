@@ -33,28 +33,32 @@
                         </thead>
                         <tbody>
                         <?php if (!empty($filieres)): ?>
-                                <?php foreach ($filieres as $index => $filiere): ?>
-                                    <tr>
-                                        <td><?= $index + 1; ?></td>
-                                        <td><?= esc($filiere['name']); ?></td>
-                                        <td><?= esc($filiere['description']); ?></td>
-
-                                        <td>
-                                        <button class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#editFiliereModal">
-                                        <i class="bi bi-pencil"></i>
-                                    </button>
-                                    <button class="btn btn-sm btn-danger">
-                                        <i class="bi bi-trash"></i>
-                                    </button>
-                                        </td>
-                                    </tr>
-                                <?php endforeach; ?>
-                            <?php else: ?>
+                            <?php foreach ($filieres as $filiere): ?>
                                 <tr>
-                                    <td colspan="4" class="text-center">Aucune filière trouvée</td>
+                                    <td><?= $filiere['id']; ?></td>
+                                    <td><?= esc($filiere['name']); ?></td>
+                                    <td><?= esc($filiere['description']); ?></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary me-2" 
+                                                data-bs-toggle="modal" 
+                                                data-bs-target="#editFiliereModal" 
+                                                data-id="<?= $filiere['id']; ?>"
+                                                data-name="<?= esc($filiere['name']); ?>"
+                                                data-description="<?= esc($filiere['description']); ?>">
+                                            <i class="bi bi-pencil"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-danger" 
+                                                data-id="<?= $filiere['id']; ?>">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </td>
                                 </tr>
-                            <?php endif; ?>
-                           
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <tr>
+                                <td colspan="4" class="text-center">Aucune filière trouvée</td>
+                            </tr>
+                        <?php endif; ?>
                         </tbody>
                     </table>
                 </div>
@@ -72,6 +76,7 @@
                 </div>
                 <div class="modal-body">
                     <form id="addFiliereForm" method="post" action="ajouter_filiere">
+                        <?= csrf_field() ?>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" name="nom_filiere" class="form-control" id="name" required>
@@ -99,15 +104,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="editFiliereForm">
-                        <input type="hidden" id="editId">
+                    <form id="editFiliereForm" method="post">
+                        <?= csrf_field() ?>
+                        <input type="hidden" id="editId" name="id">
                         <div class="mb-3">
                             <label for="editName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="editName" required>
+                            <input type="text" class="form-control" id="editName" name="name" required>
                         </div>
                         <div class="mb-3">
                             <label for="editDescription" class="form-label">Description</label>
-                            <textarea class="form-control" id="editDescription" rows="3" required></textarea>
+                            <textarea class="form-control" id="editDescription" name="description" rows="3" required></textarea>
                         </div>
                     </form>
                 </div>
@@ -120,5 +126,68 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Edit Filière
+        const editButtons = document.querySelectorAll('[data-bs-target="#editFiliereModal"]');
+        editButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const id = this.getAttribute('data-id');
+                const name = this.getAttribute('data-name');
+                const description = this.getAttribute('data-description');
+                
+                document.getElementById('editId').value = id;
+                document.getElementById('editName').value = name;
+                document.getElementById('editDescription').value = description;
+            });
+        });
+
+        // Handle Edit Form Submission
+        document.getElementById('editFiliereForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const id = document.getElementById('editId').value;
+
+            fetch(`/filieres/update/${id}`, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        // Delete Filière
+        // Delete Filière
+    const deleteButtons = document.querySelectorAll('.btn-danger');
+    deleteButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            if (confirm('Êtes-vous sûr de vouloir supprimer cette filière ?')) {
+                const row = this.closest('tr');
+                const id = row.querySelector('td:first-child').textContent;
+
+                fetch(`/filieres/delete/${id}`, {
+                    method: 'POST'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        row.remove();
+                    } else {
+                        alert(data.message);
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+            }
+        });
+    });
+});
+    </script>
 </body>
 </html>

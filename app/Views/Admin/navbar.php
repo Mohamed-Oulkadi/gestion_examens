@@ -65,25 +65,24 @@
             </ul>
 
                         <!-- User Profile -->
-            <div class="dropdown mt-auto">
-                <a href="#" class="nav-link text-white dropdown-toggle d-flex align-items-center" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-person-circle me-2 icon-size"></i>
-                    <span class="menu-text d-none d-lg-inline">Admin User</span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark shadow" aria-labelledby="userDropdown">
-                    <li>
-                        <a class="dropdown-item d-flex align-items-center" href="">
-                            <i class="bi bi-person me-2"></i>Profile
-                        </a>
-                    </li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li>
-                        <a class="dropdown-item d-flex align-items-center" href="/logout">
-                            <i class="bi bi-box-arrow-right me-2"></i>Sign out
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        <div class="dropup mt-auto">
+    <button class="btn nav-link text-white dropdown-toggle d-flex align-items-center w-100 border-0 py-2" 
+            type="button" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+        <i class="bi bi-person-circle me-lg-2 icon-size"></i>
+        <span class="menu-text d-none d-lg-inline">Admin User</span>
+        <i class="bi bi-chevron-up ms-auto d-none d-lg-block"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark shadow w-100">
+        <li>
+            <a class="dropdown-item d-flex align-items-center" href="/logout">
+                <i class="bi bi-box-arrow-right me-2"></i>Sign out
+            </a>
+        </li>
+    </ul>
+</div>
+
             
             <!-- Add before closing body tag -->
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

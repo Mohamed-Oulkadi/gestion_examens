@@ -1,60 +1,60 @@
-<?include('navbar.php');?>
 <!DOCTYPE html>
 <html lang="en">
-<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des resultats</title>
+    <title>Results Management - Exam System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <?php include 'navbar.php'; ?>
+            
+            <div class="col py-3">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Exam Results</h1>
+                </div>
 
-    <!-- CSS et JavaScript externes -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+                <!-- Results Table -->
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Student Name</th>
+                                <th>Exam</th>
+                                <th>Score</th>
+                                <th>Grade</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            // Sample data - Replace with database query
+                            $results = [
+                                ['ST001', 'John Doe', 'Mathematics', 85, 'A', '2024-03-15'],
+                                ['ST002', 'Jane Smith', 'Physics', 78, 'B', '2024-03-14'],
+                                ['ST003', 'Mike Johnson', 'Chemistry', 92, 'A', '2024-03-13'],
+                            ];
 
-    <style>
-        hr.new1 {
-            border: 1px solid #385e82;
-            border-radius: 2px;
-        }
-    </style>
-</head
-<body>
-    <!-- Include Navbar -->
-    <?php include('navbar.php'); ?>
-
-    <div class="container mt-5">
-        <h1 class="mb-4">Liste des Résultats</h1>
-
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Nom de l'examen</th>
-                    <th>Étudiant</th>
-                    <th>Filière</th>
-                    <th>Module</th>
-                    <th>Professeur</th>
-                    <th>Note</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Loop for dynamic result data -->
-                <tr>
-                    <td>1</td>
-                    <td>Examen Programmation</td>
-                    <td>Mohammed Jibali</td>
-                    <td>Informatique</td>
-                    <td>Programmation</td>
-                    <td>Said Sfyani</td>
-                    <td>14.5</td>
-                </tr>
-                <!-- Add more rows dynamically -->
-            </tbody>
-        </table>
+                            foreach ($results as $result) {
+                                echo "<tr>";
+                                echo "<td>{$result[0]}</td>";
+                                echo "<td>{$result[1]}</td>";
+                                echo "<td>{$result[2]}</td>";
+                                echo "<td>{$result[3]}</td>";
+                                echo "<td><span class='badge bg-" . ($result[4] == 'A' ? 'success' : 'primary') . "'>{$result[4]}</span></td>";
+                                echo "<td>{$result[5]}</td>";
+                                echo "</tr>";
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

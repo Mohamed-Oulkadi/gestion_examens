@@ -1,118 +1,123 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page des professeur</title>
-
-    <!-- CSS et JavaScript externes -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
-
-    <style>
-        hr.new1 {
-            border: 1px solid #385e82;
-            border-radius: 2px;
-        }
-    </style>
+    <title>Assign Modules to Professors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
 </head>
-<body>
-    <?php include("navbar.php"); ?>
-
-    <div class="container mt-5">
-        <!-- Section d'en-tête -->
-        <!-- <h1 class="mb-4">Assigner un Module à un Professeur</h1>
-        <div align="right">
-            <button 
-                type="button" 
-                class="btn" 
-                style="background-color: rgb(49, 165, 194); color: white;" 
-                data-toggle="modal" 
-                data-target="#add_data_Modal">
-                <span class="glyphicon glyphicon-plus"></span> &nbsp;Assigner
-            </button>
-        </div> -->
-
-        <!-- Table des assignations -->
-        <h2 class="mt-4">Liste des Professeurs :</h2>
-        <div class="panel-body">
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <?php include 'navbar.php'; ?>
+            
+                   <div class="col py-3">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Liste des Professeurs :</h1>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#assignModuleModal">
+                    <i class="bi bi-plus-circle me-2"></i>New professor
+                </button>
+            </div>
+        
+            <!-- Professors Table -->
             <div class="table-responsive">
-                <table id="employee_table" class="table table-striped">
+                <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th>#</th>
+                            <th>ID</th>
                             <th>Nom et Prenom</th>
                             <th>Email</th>
                             <th>Username</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <?php foreach ($professeurs as $index => $professeur): ?>
+                       
+
+<?php foreach ($professeurs as $index => $professeur): ?>
                     <tr>
                         <td><?=  esc($professeur['id']); ?></td>
                         <td><?= esc($professeur['nom']) . " " . esc($professeur['prenom']); ?></td>
                         <td><?= esc($professeur['email']); ?></td>
                         <td><?= esc($professeur['username']); ?></td>
+                        <td>
+                                        <button class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#editFiliereModal">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-danger">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                        </td>
                     </tr>
                 <?php endforeach; ?>
-                  
                     </tbody>
                 </table>
             </div>
         </div>
-    </div>
-
-    <!-- Modal pour l'ajout d'une assignation -->
-    <!-- <div id="add_data_Modal" class="modal fade" data-backdrop="static" data-keyboard="false">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title text-center">Nouvelle Assignation</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="/admin/assign_professor_module" method="POST">
-                        <div class="form-group">
-                            <label for="professor" class="form-label">Professeur</label>
-                            <select class="form-control" id="professor" name="professor" required>
-                                <option value="" disabled selected>Choisir un professeur</option>
-                                <-- Options dynamiques -->
-                                <!-- <option value="1">Said Sfyani</option>
-                                <option value="2">Fatima Amrani</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="module" class="form-label">Module</label>
-                            <select class="form-control" id="module" name="module" required>
-                                <option value="" disabled selected>Choisir un module</option>
-                                <-- Options dynamiques -->
-                                <!-- <option value="1">Programmation</option>
-                                <option value="2">Base de Données</option>
-                            </select>
-                        </div>
-                        <div class="text-right mt-3">
-                            <button type="submit" class="btn btn-primary">Assigner</button>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </form>
+        
+        <!-- Assign Module Modal -->
+        <div class="modal fade" id="assignModuleModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Assign Modules to Professor</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="assignModuleForm">
+                            <div class="mb-3">
+                                <label class="form-label">Select Professor</label>
+                                <select class="form-select select2-single" name="professor" required>
+                                    <option value="">Choose professor...</option>
+                                    <option value="1">Dr. John Smith</option>
+                                    <option value="2">Dr. Jane Doe</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Select Modules</label>
+                                <select class="form-select select2-multiple" name="modules[]" multiple required>
+                                    <option value="1">Programming Basics</option>
+                                    <option value="2">Data Structures</option>
+                                    <option value="3">Algorithms</option>
+                                    <option value="4">Database Systems</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" form="assignModuleForm" class="btn btn-primary">Assign Modules</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>   -->
-
-    <script>
-        $(document).ready(function () {
-            $('#employee_table').DataTable({
-                language: {
-                    url: '//cdn.datatables.net/plug-ins/1.10.7/i18n/French.json'
-                },
-                paging: true,
-                searching: true
+        
+        <!-- Add Select2 CSS and JS -->
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        
+        <script>
+        $(document).ready(function() {
+            $('.select2-single').select2({
+                theme: 'bootstrap-5',
+                dropdownParent: $('#assignModuleModal')
+            });
+        
+            $('.select2-multiple').select2({
+                theme: 'bootstrap-5',
+                dropdownParent: $('#assignModuleModal'),
+                placeholder: 'Select modules'
             });
         });
-    </script>
+        
+        function editAssignment(professorId) {
+            $('#assignModuleModal').modal('show');
+            $('select[name="professor"]').val(professorId).trigger('change');
+        }
+        </script>
 </body>
 </html>

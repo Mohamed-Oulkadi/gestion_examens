@@ -33,7 +33,7 @@ class Login extends BaseController
                 return redirect()->to('/Etudiant/dashboardEtudiant');  // Redirect to dashboard on successful login
             }else if($role['role_name']=='Admin'){
                 session()->set('role', $role['role_name']);  // Store role session
-                return redirect()->to('/Admin/dashboard');  // Redirect to dashboard on successful login
+                return redirect()->to('/admin/dashboard');  // Redirect to dashboard on successful login
             }else{
                 session()->set('role', $role['role_name']);  // Store role session
                 echo 'Prof';

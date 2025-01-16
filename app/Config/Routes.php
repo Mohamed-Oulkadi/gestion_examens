@@ -10,18 +10,22 @@ $routes->get('login', 'Login::index');
 $routes->post('Login/authenticate', 'Login::authenticate');
 $routes->get('register', 'Register::index');
 $routes->post('Register/processRegister', 'Register::processRegister');
-//$routes->get('dashboard', 'Dashboard::index');
+$routes->post('filieres/update/(:num)', 'Filieres::update/$1');
+$routes->post('filieres/delete/(:num)', 'Filieres::delete/$1');//$routes->get('dashboard', 'Dashboard::index');
 $routes->get('logout', 'Logout::index');
 
 
-$routes->group('Admin', function ($routes) {
-    $routes->get('dashboard', 'Dashboard::index'); // Default route (admin/dashboard)
-});
+// $routes->group('Admin', function ($routes) {
+//     $routes->get('dashboard', 'Dashboard::index'); // Default route (admin/dashboard)
+// });
 
 $routes->group('admin', function ($routes) {
     $routes->get('dashboard', 'Dashboard::index'); // Dashboard route
     $routes->get('professeurs', 'Professeurs::index'); // Professeurs listing
     $routes->get('modules', 'Modules::index'); // Modules listing 
+    $routes->get('modules/edit/(:num)', 'Modules::edit/$1'); // Afficher le formulaire d'édition
+    $routes->post('modules/update/(:num)', 'Modules::update/$1');
+    $routes->post('modules/delete/(:num)', 'Modules::delete/$1'); // Delete module
     $routes->post('insert_module', 'Modules::insert');
     $routes->get('filieres', 'Filieres::index'); // Filieres listing 
     $routes->post('ajouter_filiere', 'Filieres::insert');

@@ -78,7 +78,7 @@
                     </div>
 
                     <div class="modal-body">
-                        <form method="post" action="updatefiliere.php" class="form">
+                        <form method="post" action="editfiliere" class="form">
                             <h5 class="text-center mb-4" style="color:#385e82; font-family: 'Staatliches', cursive;">
                                 Informations
                             </h5>

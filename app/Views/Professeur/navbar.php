@@ -9,8 +9,16 @@
 </head>
 
 <body class="bg-light">
+
+
 <?php
-    $current_page = basename(path: $_SERVER['PHP_SELF']);
+// Toujours vérifier si la session est démarrée
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Détermine la page actuelle pour activer le lien correspondant
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark col-auto col-md-3 col-xl-2 px-sm-2 px-0 sidebar">
@@ -18,8 +26,8 @@
         <!-- Brand -->
         <div class="d-flex justify-content-center justify-content-lg-start align-items-center w-100 mb-3">
             <a class="navbar-brand d-flex align-items-center" href="dashboard.php">
-            <i class="bi bi-mortarboard-fill fs-3 me-lg-2"></i>
-            <span class="brand-text d-none d-lg-inline">ExamManager</span>
+                <i class="bi bi-mortarboard-fill fs-3 me-lg-2"></i>
+                <span class="brand-text d-none d-lg-inline">ProfessorPortal</span>
             </a>
         </div>
 
@@ -27,67 +35,72 @@
             <!-- Main Navigation -->
             <ul class="navbar-nav flex-column w-100 mb-auto">
                 <li class="nav-item">
-                    <a href="/admin/dashboard" class="nav-link text-white <?php echo ($current_page == 'dashboard.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                    <a href="dashboard.php" class="nav-link text-white <?php echo ($current_page == 'dashboard.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
                         <i class="bi bi-speedometer2 me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Dashboard</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin/filieres" class="nav-link text-white <?php echo ($current_page == 'filieres.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Filières">
-                        <i class="bi bi-diagram-3 me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Filières</span>
+                    <a href="examens.php" class="nav-link text-white <?php echo ($current_page == 'exams.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Examens">
+                        <i class="bi bi-file-text me-lg-2 icon-size"></i>
+                        <span class="menu-text d-none d-lg-inline">Examens</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin/modules" class="nav-link text-white <?php echo ($current_page == 'modules.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Modules">
+                    <a href="modules.php" class="nav-link text-white <?php echo ($current_page == 'modules.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Modules">
                         <i class="bi bi-book me-lg-2 icon-size"></i>
                         <span class="menu-text d-none d-lg-inline">Modules</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin/professeurs" class="nav-link text-white <?php echo ($current_page == 'professeurs.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Professor Assignment">
-                        <i class="bi bi-person-workspace me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Professors</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="/admin/etudiants" class="nav-link text-white <?php echo ($current_page == 'students.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Professor Assignment">
-                        <i class="bi bi-person-workspace me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Students</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="/admin/examens" class="nav-link text-white <?php echo ($current_page == 'exams.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Exams">
-                        <i class="bi bi-file-text me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Exams</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="/admin/resultats" class="nav-link text-white <?php echo ($current_page == 'results.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Results">
+                    <a href="results.php" class="nav-link text-white <?php echo ($current_page == 'results.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Results">
                         <i class="bi bi-graph-up me-lg-2 icon-size"></i>
-                        <span class="menu-text d-none d-lg-inline">Results</span>
+                        <span class="menu-text d-none d-lg-inline">Notes</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="students.php" class="nav-link text-white <?php echo ($current_page == 'students.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Students">
+                        <i class="bi bi-people me-lg-2 icon-size"></i>
+                        <span class="menu-text d-none d-lg-inline">Étudiants</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="reclamations.php" class="nav-link text-white <?php echo ($current_page == 'reclamations.php') ? 'active' : ''; ?>" data-bs-toggle="tooltip" data-bs-placement="right" title="Réclamations">
+                        <i class="bi bi-exclamation-circle me-lg-2 icon-size"></i>
+                        <span class="menu-text d-none d-lg-inline">Réclamations</span>
                     </a>
                 </li>
             </ul>
 
-                        <!-- User Profile -->
-                        <div class="dropup mt-auto">
-    <button class="btn nav-link text-white dropdown-toggle d-flex align-items-center w-100 border-0 py-2" 
-            type="button" 
-            data-bs-toggle="dropdown" 
-            aria-expanded="false">
-        <i class="bi bi-person-circle me-lg-2 icon-size"></i>
-        <span class="menu-text d-none d-lg-inline">Admin User</span>
-        <i class="bi bi-chevron-up ms-auto d-none d-lg-block"></i>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-dark shadow w-100">
-        <li>
-            <a class="dropdown-item d-flex align-items-center" href="/logout">
-                <i class="bi bi-box-arrow-right me-2"></i>Sign out
-            </a>
-        </li>
-    </ul>
-</div>
+            <!-- User Profile Dropup -->
+            <div class="dropup mt-auto">
+                <button class="btn nav-link text-white dropdown-toggle d-flex align-items-center w-100 border-0 py-2"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <i class="bi bi-person-circle me-lg-2 icon-size"></i>
+                    <span class="menu-text d-none d-lg-inline">Professeur</span>
+                    <i class="bi bi-chevron-up ms-auto d-none d-lg-block"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark shadow w-100">
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="profile.php">
+                            <i class="bi bi-person me-2"></i>Profile
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="../auth/logout.php">
+                            <i class="bi bi-box-arrow-right me-2"></i>Déconnexion
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        
 
             
             <!-- Add before closing body tag -->
@@ -119,9 +132,7 @@
                 color: white;
             }
             </style>
-        </div>
-    </div>
-</nav>
+
 
 <style>
     .sidebar {
